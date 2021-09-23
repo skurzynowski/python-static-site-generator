@@ -37,6 +37,12 @@ class Content(Mapping):
     def __len__(self):
         return len(self.data)
 
+    '''
+     Representation of object
+    '''
+    def __repr__(self):
+        data = {}
+        return str(data)
 
     pass
 
